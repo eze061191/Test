@@ -30,6 +30,12 @@ body {
     text-align: center;
 }
 
+.contenedor h2 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
 .contenedor p {
     color: black;
     font-family: sans-serif;
