@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     body {
         margin: 0;
-        background-size: contain;
+        background-size: 800px;
     }
 
     .overlay {
