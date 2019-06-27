@@ -1,6 +1,6 @@
 Swal.fire(
     'Recuerda',
-    'Por favor selecciones todos los checklist que aparecen en el test, de lo contrario, el calculo del puntaje y el mensaje que se muestre será erroneo, por favor recuerde seleccionar segun su respuesta, muchas gracias y disfrute del Test',
+    'Seleccionar una respuesta para cada una de las preguntas, hasta completarlas todas',
     'info'
     )
 
