@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.titulo {
+    text-align: center;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.img img {
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.contedor, .item1, .item2, .item3, .item4, .item5, .item6 {
+    border: 1px solid green;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedor2 {
+    margin-top: -80px;
+}
+
+.titulo2 {
+    text-align: center;
+    border-radius: 20px;
+    /* margin-top: -50px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.img2 img {
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 800px;
+    padding: 10px;
+}
+
+.item7, .item8, .item9, .item10 {
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contenedor3 {
+    margin-top: -80px;
+}
+
+.titulo3 {
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.img3 img {
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    height: 450px;
+}
+
+.item11, .item12, .item13, .item14 {
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.contenedor4 {
+    margin-top: -80px;
+}
+
+.titulo4 {
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.img4 img {
+    width: 680px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.item15, .item16, .item17, .item18 {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.contenedor5 {
+    margin-top: -80px;
+}
+
+.titulo5 {
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.img5 img {
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.item19, .item20, .item21, .item22 {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

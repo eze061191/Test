@@ -1,0 +1,378 @@
+.contenedor {
+    /* background: #ff8000; */
+    display: grid;
+    grid-gap: 1px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: repeat(7, 1fr);
+    grid-template-areas: 'titulo    titulo'
+                         'img       item1'
+                         'img       item2'
+                         'img       item3'
+                         'img       item4'
+                         'img       item5'
+                         'img       item6';
+
+    /* align-items: center;
+    justify-items: end; */
+}
+
+.contenedor .titulo {
+    background: greenyellow;
+    grid-area: titulo;
+}
+
+.contenedor .img {
+    /* background: white; */
+    grid-area: img;
+    /* grid-template-columns: minmax(720px, 1fr); */
+}
+
+.contenedor .img img {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.contenedor .item1 {
+    /* background: red; */
+    grid-area: item1;
+}
+
+.contenedor .item2 {
+    /* background: blue; */
+    grid-area: item2;
+}
+
+.contenedor .item3 {
+    /* background: purple; */
+    grid-area: item3;
+}
+
+.contenedor .item4 {
+    /* background: peru; */
+    grid-area: item4;
+}
+
+.contenedor .item5 {
+    /* background: olivedrab; */
+    grid-area: item5;
+}
+
+.contenedor .item6 {
+    /* background: gray; */
+    grid-area: item6;
+}
+
+.contenedor2 {
+    display: grid;
+    /* background: #ff8000; */
+    grid-gap: 1px;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 'titulo2   titulo2'
+                         'item7     img2'
+                         'item8     img2'
+                         'item9     img2'
+                         'item10    img2';
+}
+
+.contenedor2 .titulo2 {
+    grid-area: titulo2;
+    background: rgb(86, 86, 253);
+}
+
+.contenedor2 .img2 {
+    /* grid-area: img2; */
+    grid-column: img2;
+    grid-row: img2;
+}
+
+.contenedor2 .img2 img {
+    margin-top: -10px;
+    height: 470px;
+}
+
+.contenedor2 .item7 {
+    grid-area: item7;
+    /* background: red; */
+}
+
+.contenedor2 .item8 {
+    grid-area: item8;
+    /* background: blue; */
+}
+
+.contenedor2 .item9 {
+    grid-area: item9;
+    /* background: green; */
+}
+
+.contenedor2 .item10 {
+    grid-area: item10;
+    /* background: purple; */
+}
+
+.contenedor3 {
+    display: grid;
+    /* background: #ff8000; */
+    grid-gap: 1px;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 'titulo3   titulo3'
+                         'img3      item11'
+                         'img3      item12'
+                         'img3      item13'
+                         'img3      item14';
+}
+
+.contenedor3 .titulo3 {
+    background: rgb(238, 0, 238);
+    grid-area: titulo3;
+}
+
+.contenedor3 .img3 {
+    grid-area: img3;
+}
+
+.contenedor3 .img3 img {
+    margin-top: -10px;
+    /* margin-bottom: -5px; */
+}
+
+.contenedor3 .item11 {
+    grid-area: item11;
+}
+
+.contenedor3 .item12 {
+    grid-area: item12;
+}
+
+.contenedor3 .item13 {
+    grid-area: item13;
+}
+
+.contenedor3 .item14 {
+    grid-area: item14
+}
+
+.contenedor4 {
+    /* background: #ff8000; */
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 'titulo4   titulo4'
+                         'item15    img4'
+                         'item16    img4'
+                         'item17    img4'
+                         'item18    img4';
+}
+
+.contenedor4 .titulo4 {
+    background: rgb(255, 255, 78);
+    grid-area: titulo4;
+}
+
+.contenedor4 .img4 {
+    grid-area: img4;
+}
+
+.contenedor4 .img4 img {
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.contenedor4 .item15 {
+    grid-area: item15;
+}
+
+.contenedor4 .item16 {
+    grid-area: item16;
+}
+
+.contenedor4 .item17 {
+    grid-area: item17;
+}
+
+.contenedor4 .item18 {
+    grid-area: item18;
+}
+
+.contenedor5 {
+    /* background: #ff8000; */
+    display: grid;
+    grid-gap: 1px;
+
+    grid-template-columns: repeat(2. 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 'titulo5   titulo5'
+                         'img5      item19'
+                         'img5      item20'
+                         'img5      item21'
+                         'img5      item22';
+}
+
+.contenedor5 .titulo5 {
+    grid-area: titulo5;
+    background: rgb(255, 68, 68);
+}
+
+.contenedor5 .img5 {
+    grid-area: img5;
+}
+
+.contenedor5 .img5 img {
+    margin-top: -10px;
+    margin-bottom: -5px;
+    height: 460px;
+}
+
+.contenedor5 .item19 {
+    grid-area: item19;
+}
+
+.contenedor5 .item20 {
+    grid-area: item20;
+}
+
+.contenedor5 .item21 {
+    grid-area: item21;
+}
+
+.contenedor5 .item22 {
+    grid-area: item22;
+}
+
+.contenedor6 {
+    /* background: #ff8000; */
+    display: grid;
+    grid-gap: 1px;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'validar   btn1    btn2    btn3    btn4    btn5';
+
+    text-align: center;
+}
+
+.contenedor6 .validar {
+    /* background: red; */
+    grid-area: validar;
+}
+
+.contenedor6 .validar input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: gray;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor6 .btn1 {
+    grid-area: btn1;
+}
+
+.contenedor6 .btn1 input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: greenyellow;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor6 .btn2 {
+    grid-area: btn2;
+}
+
+.contenedor6 .btn2 input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgb(86, 86, 253);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor6 .btn3 {
+    grid-area: btn3;
+}
+
+.contenedor6 .btn3 input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgb(238, 0, 238);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor6 .btn4 {
+    grid-area: btn4;
+}
+
+.contenedor6 .btn4 input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 255, 78);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor6 .btn5 {
+    grid-area: btn5;
+}
+
+.contenedor6 .btn5 input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 68, 68);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor7 {
+    display: grid;
+    grid-gap: 1px;
+    justify-content: center;
+}
+
+.contenedor7 .btn6 {
+    background: yellow;
+    padding: 50px;
+    border-radius: 50px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+    /* margin-top: 200px; */
+}
+
+.contenedor7 .btn6 a {
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+}
+
+.contenedor7 .btn6:hover {
+    background: green;
+}
+
+.contenedor7 .btn6 a:hover {
+    color: white;
+}

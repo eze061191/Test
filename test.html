@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/laptop1024.css"> -->
+    <link rel="stylesheet" href="css/tablet768.css">
+    <link rel="stylesheet" href="css/mobile425.css">
+    <link rel="stylesheet" href="css/mobile320.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <title>Test de Memoria</title>
+</head>
+<body>
+    <form action="" id="form">
+        <div class="contenedor">
+            <div class="titulo">
+                <label for=""><h1>Olvidos Significativos</h1></label> <!--Primera Parte-->
+            </div>
+            <br>
+            <div class="img">
+                <img src="images/significativo.jpg" alt="">
+            </div>
+            <div class="item1">
+                <label for=""><b>Antes me acordaba de todo, ahora no tanto.</b></label> <!--Pregunta Numero 1-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta1" id="good" value="1" style="transform: scale(2); margin-right: 10px;" required><b>Verdadero</b>
+                <input type="radio" name="pregunta1" id="bad" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Falso</b>
+            </div>
+            <br>
+            <br>
+            <div class="item2">
+                <label for=""><b>Mi familia y mis amigos me dicen que olvido muchas cosas.</b></label> <!--Pregunta Numero 2-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta2" id="good2" value="2" style="transform: scale(2); margin-right: 10px;" required><b>Verdadero</b>
+                <input type="radio" name="pregunta2" id="bad2" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Falso</b>
+            </div>
+            <br>
+            <br>
+            <div class="item3">
+                <label for=""><b>Los problemas de memoria me dificultan mi trabajo o mis actividades diarias.</b></label> <!--Pregunta Numero 3-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta3" id="good3" value="3" style="transform: scale(2); margin-right: 10px;" required><b>Verdadero</b>
+                <input type="radio" name="pregunta3" id="bad3" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Falso</b>
+            </div>
+            <br>
+            <br>
+            <div class="item4">
+                <label for=""><b>He notado que desde hace un tiempo he perdido el olfato.</b></label> <!--Pregunta Numero 4-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta4" id="good4" value="4" style="transform: scale(2); margin-right: 10px;" required><b>Verdadero</b>
+                <input type="radio" name="pregunta4" id="bad4" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Falso</b>
+            </div>
+            <br>
+            <br>
+            <div class="item5">
+                <label for=""><b>Me he sentido perdido o desorientado en una zona que conozco bien.</b></label> <!--Pregunta Numero 5-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta5" id="good5" value="5" style="transform: scale(2); margin-right: 10px;" required><b>Verdadero</b>
+                <input type="radio" name="pregunta5" id="bad5" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Falso</b>
+            </div>
+            <br>
+            <br>
+            <div class="item6">
+                <label for=""><b>Recientemente se me ha hecho complicado manipular aparatos que conozco.</b></label> <!--Pregunta Numero 6-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta6" id="good6" value="6" style="transform: scale(2); margin-right: 10px;" required><b>Verdadero</b>
+                <input type="radio" name="pregunta6" id="bad6" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Falso</b>
+            </div>
+            <!-- <br>
+            <br> -->
+        </div>
+        <div class="contenedor2">
+            <div class="titulo2">
+                <label for=""><h1>Fallos de atención</h1></label> <!--Segunda Parte-->
+            </div>
+            <br>
+            <div class="img2">
+                <img src="images/olvidos.jpg" alt="">
+            </div>
+            <div class="item7">
+                <label for=""><b>He llegado a una habitación sin recordar que iba a hacer allí.</b></label> <!--Pregunta Numero 7-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta7" id="good7" value="7" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta7" id="media7" value="7" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta7" id="bad7" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item8">
+                <label for=""><b>Dejo olvidado objetos en los sitios que voy, como por ejemplo: un paraguas.</b></label> <!--Pregunta Numero 8-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta8" id="good8" value="8" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta8" id="media8" value="8" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta8" id="bad8" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item9">
+                <label for=""><b>Tengo dudas si ya hice algo, como echar sal a la comida, cerrar la puerta.</b></label> <!--Pregunta Numero 9-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta9" id="good9" value="9" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta9" id="media9" value="9" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta9" id="bad9" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item10">
+                <label for=""><b>No sé en donde dejo los objetos de uso cotidiano como las llaves o los lentes.</b></label> <!--Pregunta Numero 10-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta10" id="good10" value="10" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta10" id="media10" value="10" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta10" id="bad10" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="contenedor3">
+            <div class="titulo3">
+                <label for=""><h1>Olvidos de agenda</h1></label> <!--Tercera Parte-->
+            </div>
+            <br>
+            <div class="img3">
+                <img src="images/recordatorio.jpg" alt="">
+            </div>
+            <div class="item11">
+                <label for=""><b>Se me ocurre un plan, pero luego no lo recuerdo.</b></label> <!--Pregunta Numero 11-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta11" id="good11" value="11" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta11" id="media11" value="11" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta11" id="bad11" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item12">
+                <label for=""><b>Me doy cuenta de citas o cosas que tenía que hacer cuando ya han pasado.</b></label> <!--Pregunta Numero 12-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta12" id="good12" value="12" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta12" id="media12" value="12" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta12" id="bad12" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item13">
+                <label for=""><b>Regreso a casa y me doy cuenta que olvidé algo que tenía que comprar.</b></label> <!--Pregunta Numero 13-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta13" id="good13" value="13" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta13" id="media13" value="13" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta13" id="bad13" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item14">
+                <label for=""><b>Me encuentro con alguien a quien tenía que decirle algo pero no recuerdo qué era.</b></label> <!--Pregunta Numero 14-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta14" id="good14" value="14" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta14" id="media14" value="14" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta14" id="bad14" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="contenedor4">
+            <div class="titulo4">
+                <label for=""><h1>Olvido de palabras</h1></label> <!--Cuarta Parte-->
+            </div>
+            <br>
+            <div class="img4">
+                <img src="images/palabras.jpg" alt="">
+            </div>
+            <div class="item15">
+                <label for=""><b>Me cuesta encontrar las palabras que busco.</b></label> <!--Pregunta Numero 15-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta15" id="good15" value="15" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta15" id="media15" value="15" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta15" id="bad15" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item16">
+                <label for=""><b>Confundo una palabra con otra y me doy cuenta cuando ya le he dicho.</b></label> <!--Pregunta Numero 16-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta16" id="good16" value="16" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta16" id="media16" value="16" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta16" id="bad15" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item17">
+                <label for=""><b>Me cuesta recordar nombres de actores de cine que ya yo conocía.</b></label> <!--Pregunta Numero 17-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta17" id="good17" value="17" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta17" id="media17" value="17" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta17" id="bad17" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item18">
+                <label for=""><b>Me encuentro con personas que conozco, pero no recuerdo sus nombres.</b></label> <!--Pregunta Numero 18-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta18" id="good18" value="18" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta18" id="media18" value="18" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta18" id="bad18" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="contenedor5">
+            <div class="titulo5">
+                <label for=""><h1>Olvidos de actividades</h1></label> <!--Quinta Parte-->
+            </div>
+            <br>
+            <div class="img5">
+                <img src="images/actividades.jpg" alt="">
+            </div>
+            <div class="item19">
+                <label for=""><b>Me cuesta recordar lo que cené ayer.</b></label> <!--Pregunta Numero 19-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta19" id="good19" value="19" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta19" id="media19" value="19" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta19" id="bad19" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item20">
+                <label for=""><b>Cuando retomo la lectura de un libro, me cuesta seguirlo porque no recuerdo lo que había pasado en los capítulos ya leídos.</b></label> <!--Pregunta Numero 20-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta20" id="good20" value="20" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta20" id="media20" value="20" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta20" id="bad20" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item21">
+                <label for=""><b>Cuando me mencionan algo que he vivido o que me ha pasado hace unos días, no soy capaz de encontrarlo en mis recuerdos.</b></label> <!--Pregunta Numero 21-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta21" id="good21" value="21" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta21" id="media21" value="21" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta21" id="bad21" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+            <div class="item22">
+                <label for=""><b>Me cuesta recordar lo que hice el fin de semana pasado.</b></label> <!--Pregunta Numero 22-->
+                <br>
+                <br>
+                <input type="radio" name="pregunta22" id="good22" value="22" style="transform: scale(2); margin-right: 10px;" required><b>Casi nunca</b>
+                <input type="radio" name="pregunta22" id="media22" value="22" style="transform: scale(2); margin-right: 10px;" required><b>Ocacionalmente</b>
+                <input type="radio" name="pregunta22" id="bad22" value="0" style="transform: scale(2); margin-right: 10px;" required><b>Frecuentemente</b>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="contenedor6">
+            <div class="validar">
+                <input type="button" value="Ver resultado" id="btn" onclick="validar()"> <!--Parte del Botón-->
+            </div>
+            <br>
+            <br>
+            <div class="btn1">
+                <input type="button" value="Olvidos significativos" id="btn1">
+            </div>
+            <div class="btn2">
+                <input type="button" value="Fallos de atencion" id="btn2">
+            </div>
+            <div class="btn3">
+                <input type="button" value="Olvido de agenda" id="btn3">
+            </div>
+            <div class="btn4">
+                <input type="button" value="Olvido de palabras" id="btn4">
+            </div>
+            <div class="btn5">
+                <input type="button" value="Olvido de actividades" id="btn5">
+            </div>
+        </div>
+        <!-- <input type="button" value="Sumar" id="btn" onclick="validar()"> -->
+        <div class="contenedor7">
+            <div class="btn6">
+                <a href="https://www.omega5nano.com/">Si quieres saber más click aquí</a>
+            </div>
+        </div>
+    </form>
+
+    <script src="js/test.js"></script>
+</body>
+</html>

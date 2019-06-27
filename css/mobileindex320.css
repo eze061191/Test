@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    body {
+        margin: 0%;
+        background-size: 800px;
+    }
+
+    .overlay {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 0px;
+        height: 900px;
+    }
+
+    .contenedor p {
+        margin-bottom: 80px;
+    }
+}
