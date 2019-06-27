@@ -173,15 +173,15 @@ function validar() {
     if (respuesta == muyMal1 || respuesta <= muyMal2) {
         // alert(mensaje[0])
         Swal.fire(
-            'Mal!',
+            'Alerta!',
             mensaje[0],
-            'error'
+            'warning'
             )
     }
     if (respuesta == bien1 || respuesta == bien2  || respuesta == bien3  || respuesta == bien4  || respuesta == bien5  || respuesta == bien6  || respuesta == bien7  || respuesta == bien8  || respuesta == bien9  || respuesta == bien10  || respuesta == bien11  || respuesta == bien12  || respuesta == bien13  || respuesta == bien14  || respuesta == bien15  || respuesta == bien16  || respuesta == bien17  || respuesta == bien18  || respuesta == bien19  || respuesta == bien20  || respuesta == bien21  || respuesta == bien22  || respuesta == bien23  || respuesta == bien24  || respuesta == bien25  || respuesta == bien26  || respuesta == bien27  || respuesta == bien28  || respuesta == bien29  || respuesta == bien30) {
         // alert(mensaje[1])
         Swal.fire(
-            'Alerta!',
+            'Atención!',
             mensaje[1],
             'warning'
             )
@@ -189,7 +189,7 @@ function validar() {
     if (respuesta >= muyBien1 || respuesta == muyBien2) {
         // alert(mensaje[2])
         Swal.fire(
-            'Muy Bien!',
+            'Un Consejo!',
             mensaje[2],
             'success'
             )
@@ -254,15 +254,15 @@ function validar() {
         if (respuesta <= 10) {
             // alert(mensaje1[0])
             Swal.fire(
-                'Mal!',
+                'Alerta!',
                 mensaje1[0],
-                'error'
+                'warning'
                 )
         }
         if (respuesta == 15 || respuesta == 20) {
             // alert(mensaje1[1])
             Swal.fire(
-                'Alerta!',
+                'Atención!',
                 mensaje1[1],
                 'warning'
                 )
@@ -270,7 +270,7 @@ function validar() {
         if (respuesta == 25 || respuesta == 30) {
             // alert(mensaje1[2])
             Swal.fire(
-                'Muy Bien!',
+                'Un Consejo!',
                 mensaje1[2],
                 'success'
                 )
@@ -317,15 +317,15 @@ function validar() {
         if (respuesta <= 5) {
             // alert(mensaje2[0])
             Swal.fire(
-                'Mal!',
+                'Alerta!',
                 mensaje2[0],
-                'error'
+                'warning'
                 )
         }
         if (respuesta ==6 || respuesta == 7 || respuesta == 8) {
             // alert(mensaje2[1])
             Swal.fire(
-                'Alerta!',
+                'Atención!',
                 mensaje2[1],
                 'warning'
                 )
@@ -333,7 +333,7 @@ function validar() {
         if (respuesta == 9 || respuesta == 10 || respuesta == 11 || respuesta == 12) {
             // alert(mensaje2[2])
             Swal.fire(
-                'Muy Bien!',
+                'Un Consejo!',
                 mensaje2[2],
                 'success'
                 )
@@ -380,15 +380,15 @@ function validar() {
         if (respuesta <= 5) {
             // alert(mensaje3[0])
             Swal.fire(
-                'Mal!',
+                'Alerta!',
                 mensaje3[0],
-                'error'
+                'warning'
                 )
         }
         if (respuesta == 6 || respuesta == 7 || respuesta == 8 || respuesta == 9) {
             // alert(mensaje3[1])
             Swal.fire(
-                'Alerta!',
+                'Atención!',
                 mensaje3[1],
                 'warning'
                 )
@@ -396,7 +396,7 @@ function validar() {
         if (respuesta == 10 || respuesta == 11 || respuesta == 12) {
             // alert[mensaje3[2]]
             Swal.fire(
-                'Muy Bien!',
+                'Un Consejo!',
                 mensaje3[2],
                 'success'
                 )
@@ -443,15 +443,15 @@ function validar() {
         if (respuesta <=6) {
             // alert(mensaje4[0])
             Swal.fire(
-                'Mal!',
+                'Alerta!',
                 mensaje4[0],
-                'error'
+                'warning'
                 )
         }
         if (respuesta == 7 || respuesta == 8 || respuesta == 9 || respuesta == 10 || respuesta == 11) {
             // alert(mensaje4[1])
             Swal.fire(
-                'Alerta!',
+                'Atención!',
                 mensaje4[1],
                 'warning'
                 )
@@ -459,7 +459,7 @@ function validar() {
         if (respuesta == 12) {
             // alert(mensaje4[2])
             Swal.fire(
-                'Muy Bien!',
+                'Un Consejo!',
                 mensaje4[2],
                 'success'
                 )
@@ -506,15 +506,15 @@ function validar() {
         if (respuesta <= 4) {
             // alert(mensaje5[0])
             Swal.fire(
-                'Mal!',
+                'Alerta!',
                 mensaje5[0],
-                'error'
+                'warning'
                 )
         }
         if (respuesta == 5 || respuesta == 6 || respuesta == 7 || respuesta == 8) {
             // alert(mensaje5[1])
             Swal.fire(
-                'Alerta!',
+                'Atención!',
                 mensaje5[1],
                 'warning'
                 )
@@ -522,7 +522,7 @@ function validar() {
         if (respuesta == 9 || respuesta == 10 || respuesta == 11 || respuesta == 12) {
             // alert(mensaje5[2])
             Swal.fire(
-                'Muy Bien!',
+                'Un Consejo!',
                 mensaje5[2],
                 'success'
                 )
