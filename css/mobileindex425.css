@@ -2,4 +2,18 @@
     body {
         background-size: 800px;
     }
+
+    .overlay {
+        margin-top: 200px;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 0px;
+        /* background-size: cover;
+        height: 1024px; */
+    }
+
+    .contenedor p {
+        margin-bottom: 100px;
+    }
 }
